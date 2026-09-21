@@ -1,10 +1,5 @@
 
-**AI Assistance Declaration:** I used ChatGPT (GPT-5.6 Sol)
-on September 21, 2026, for Markdown structure and writing
-assistance. Prompts used: [Insert actual prompts].
-I verified outputs using [Insert completed verification].
-All final calculations are done by myself. I am responsible
-for the accuracy and originality of this work.
+**AI Assistance Declaration:** I used ChatGPT (GPT-5.6 Sol) on September 21, 2026, for README writing, Markdown formatting, R Markdown documentation, and troubleshooting. Prompts used: See AI_Appendix.md for prompts and key responses. I verified outputs using RStudio execution, an independent calculation cross-check, and HTML preview. All final calculations are done by myself. I am responsible for the accuracy and originality of this work.
 
 # Synthetic Retail Sales Analysis in R
 
