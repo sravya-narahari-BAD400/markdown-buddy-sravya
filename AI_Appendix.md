@@ -205,8 +205,7 @@ No missing values were observed in the dataset.
 
 ### Independent Calculation
 
-[Describe the independent calculation you performed,
-including the method and result.]
+[I independently checked each product's sales by multiplying the quantity by its unit price and adding the five results. My manual calculation matched the RStudio total revenue of 2705.]
 
 ### R Markdown Verification
 
@@ -218,12 +217,11 @@ displayed correctly.
 
 ### README Verification
 
-[Record the result of previewing README.md on GitHub.]
+[I reviewed README.md using GitHub's Markdown preview. The project title, section headings, bullet lists, and documentation displayed correctly. I also revised the AI Assistance Declaration to remove unfinished placeholders.]
 
 ### Self or Peer Spot-Check
 
-[Record what was checked, who checked it if applicable,
-and any changes made.]
+[I performed a self-review of the R script, README, and R Markdown document. I corrected the duplicate R code chunk, checked the documented revenue against the RStudio output, and reviewed the rendered HTML for formatting errors.]
 
 ## 7. Ethical Use of AI
 
