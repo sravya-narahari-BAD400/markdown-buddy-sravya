@@ -1,0 +1,100 @@
+---
+title: "Synthetic Retail Sales Analysis"
+author: "Sravya Narahari"
+date: "2026-09-21"
+output: html_document
+---
+
+
+
+
+**AI Assistance Declaration:** I used ChatGPT (GPT-5.6 Sol)
+on September 21, 2026, for R Markdown structure and writing
+assistance. Prompts used: See AI_Appendix.md.
+I verified outputs using RStudio execution.
+All final calculations are done by myself.
+I am responsible for the accuracy and originality of this work.
+
+# Purpose
+
+This document explains the `sales_analysis.R` script.
+
+The script creates a synthetic retail sales dataset,
+calculates sales for each product, and checks the data.
+
+## Inputs
+
+The script creates its own synthetic dataset containing
+five products: Laptop, Mouse, Keyboard, Monitor, and
+Headphones.
+
+The initial dataset contains three columns:
+
+- `Product`: Name of the product.
+- `Quantity`: Number of units sold.
+- `Price`: Price per unit.
+
+## Dependencies
+
+The analysis uses base R and does not require
+additional packages.
+
+R Markdown is required to render this document.
+
+## Script Execution
+
+The following code runs the analysis script:
+
+```{r run-analysis}
+source("sales_analysis.R")
+```
+
+## Analysis Workflow
+
+### Step 1: Create the Dataset
+
+The script uses `data.frame()` to create synthetic data.
+
+### Step 2: Calculate Product Sales
+
+The script multiplies quantity by price to calculate
+sales for each product.
+
+### Step 3: Calculate Total Revenue
+
+The `sum()` function calculates overall revenue.
+
+### Step 4: Inspect the Dataset
+
+The `str()` function displays the dataset structure.
+
+### Step 5: Check Missing Values
+
+The script uses `is.na()` and `colSums()` to identify
+missing values in each column.
+
+## Outputs
+
+The script displays the synthetic dataset, individual
+product sales, overall revenue, dataset structure,
+and missing-value counts.
+
+The observed total revenue is 2705.
+
+No missing values were found in the dataset.
+
+## Verification
+
+The R script was executed in RStudio using synthetic data.
+
+I independently checked each product's sales by multiplying its quantity by its unit price and adding the five results. The manually calculated total matched the RStudio output of 2705.
+
+The R Markdown document was successfully rendered to HTML in RStudio. The generated HTML was reviewed to confirm that the headings, R code chunk, and analysis output display correctly.
+
+## Conclusion
+
+This R Markdown document provides a structured
+explanation of the retail sales analysis workflow.
+
+The documentation uses Markdown headings, bullet lists,
+and an executable R code chunk.
