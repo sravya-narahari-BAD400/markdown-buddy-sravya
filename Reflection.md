@@ -49,8 +49,7 @@ headings, code, and analysis output displayed correctly.
 I also executed the R script and reviewed the synthetic
 dataset, total revenue, and missing-value results.
 
-[Describe your independent calculation check and
-any additional Markdown validation you completed.]
+[I manually calculated the total sales by multiplying each product's quantity by its unit price and adding the five results. The total matched the RStudio output of 2705. I also reviewed the Markdown formatting and confirmed that the R Markdown document rendered successfully to HTML.]
 
 ## Question 3: What are the strengths and limitations
 of using AI for documentation?
